@@ -4,6 +4,12 @@
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int gappx     = 6;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
+static const unsigned int cornerrad = 4;
+static const unsigned int gappih    = 0;
+static const unsigned int gappiv    = 0;
+static const unsigned int gappoh    = 0;
+static const unsigned int gappov    = 0;
+static const int smartgaps          = 1;
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "CaskaydiaCove Nerd Font:size=10" };
